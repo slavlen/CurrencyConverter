@@ -1,8 +1,9 @@
 # encoding: utf-8
 
-puts 'Of what? 1. Ruble 2. Dollar
+puts 'Of what? 1. Ruble 2. Dollar'
+currency = gets.chomp
 
-puts 'Сколько сейчас стоит 1 ${currency}?'
+puts 'How much is 1 dollar worth now?'
 usd_rate = gets.to_f
 
 if currency == '1'
